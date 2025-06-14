@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5c1a2743c9d40d89bfc715eb54f02b, type: 3}
+  m_Name: ToxicEmeraldEff
+  m_EditorClassIdentifier: 
+  type: 2
+  itemName: Toxic Emerald
+  icon: {fileID: 21300000, guid: 699e16aa309fd449ca3c9fc5630eaeb0, type: 3}
+  description: "Leave a little after-taste of doom.\n\nSlave: Anyone who hurts you
+    gets a poisonous \u201Cthank-you.\u201D\nKnight: Below half HP you deal noticeably
+    more damage.\nArcher: Bonus damage against already-poisoned targets."

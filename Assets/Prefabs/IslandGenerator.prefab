@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &145644505841617720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1920301524313560996}
+  - component: {fileID: 4828586856068575738}
+  m_Layer: 0
+  m_Name: IslandGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1920301524313560996
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145644505841617720}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4828586856068575738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145644505841617720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335ff3a5ebf244993883186ab65e2d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 200
+  height: 200
+  scale: 10
+  islandRadius: 80
+  minZoneSize: 5
+  maxBridgeAttempts: 50
+  waterTilemap: {fileID: 0}
+  foamTilemap: {fileID: 0}
+  sandTilemap: {fileID: 0}
+  grassTilemap: {fileID: 0}
+  mountainTilemap: {fileID: 0}
+  wallTilemap: {fileID: 0}
+  higherWallTilemap: {fileID: 0}
+  grassLadderTilemap: {fileID: 0}
+  mountainLadderTilemap: {fileID: 0}
+  grassWallShadowTilemap: {fileID: 0}
+  sandWallShadowTilemap: {fileID: 0}
+  bridgeShadowTilemap: {fileID: 0}
+  grassDirtTilemap: {fileID: 0}
+  sandDirtTilemap: {fileID: 0}
+  sandBridgeTilemap: {fileID: 0}
+  grassBridgeTilemap: {fileID: 0}
+  mountainBridgeTilemap: {fileID: 0}
+  waterTile: {fileID: 11400000, guid: 338777f1d0ade4b5ca4634e1e0ffd629, type: 2}
+  sandTile: {fileID: 11400000, guid: 33244c4be70bd4a3d8a4bf7615d6387c, type: 2}
+  grassTile: {fileID: 11400000, guid: 96d66a3a494074f1e8b761aa18098ec4, type: 2}
+  mountainTile: {fileID: 11400000, guid: e917af7e659364f79a88768ce527a67d, type: 2}
+  wallTile: {fileID: 11400000, guid: 27027f49415a741eca4848d93d3c8e49, type: 2}
+  bridgeTile: {fileID: 11400000, guid: c5976f45a2f6f48868750f97eeaf1f26, type: 2}
+  ladderTile: {fileID: 11400000, guid: 5c033c1c716a145a5bf538cbc4bb628c, type: 2}
+  shadowTile: {fileID: 11400000, guid: 2e276f2bd88f44b11a371f3ee7ce688f, type: 2}
+  bridgeShadowTile: {fileID: 11400000, guid: 6f2ab617dc97a442f8fc3c569a3d019c, type: 2}
+  grassDirtTile: {fileID: 11400000, guid: e2ddb1571d52044628915a0e15535a06, type: 2}
+  sandDirtTile: {fileID: 11400000, guid: 40994aa33ec9a468b96df62e427ba805, type: 2}
+  foamTile: {fileID: 11400000, guid: 89677670ff1674c15ad32d62a8886ee4, type: 2}
+  sandEdgeColliderPrefab: {fileID: 0}
+  grassEdgeColliderPrefab: {fileID: 0}
+  mountainEdgeColliderPrefab: {fileID: 0}
+  sandColliderParent: {fileID: 0}
+  grassColliderParent: {fileID: 0}
+  mountainColliderParent: {fileID: 0}
+  sandBridgeColliderParent: {fileID: 0}
+  grassBridgeColliderParent: {fileID: 0}
+  mountainBridgeColliderParent: {fileID: 0}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd26ad37288d3464b959f9d08845e694, type: 3}
+  m_Name: LifeFlaskEff
+  m_EditorClassIdentifier: 
+  type: 4
+  itemName: Life Flask
+  icon: {fileID: 21300000, guid: 71774791cc7d746d5b7575d32b9523c2, type: 3}
+  description: "Because duct-tape won\u2019t fix stab wounds.\n\nSlave: Hit back
+    within a second and heal half the damage you took.\nKnight: Occasionally shrugs
+    off an incoming hit entirely.\nArcher: Auto-heals a chunk of HP every half-minute."

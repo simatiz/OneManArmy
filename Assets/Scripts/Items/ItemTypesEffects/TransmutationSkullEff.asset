@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1194c7bd8358748d1ae0214674b3d2a9, type: 3}
+  m_Name: TransmutationSkullEff
+  m_EditorClassIdentifier: 
+  type: 8
+  itemName: Transmutation Skull
+  icon: {fileID: 21300000, guid: 610e4c6c4bcba4b058a2a94ba860ade6, type: 3}
+  description: 'None of the safety disclaimers, all of the fun.
+
+
+    Slave: Unlocks
+    a rapid 3-hit combo with extra crit chance.
+
+    Knight: Activate a 10-second
+    shield that halves damage taken.
+
+    Archer: Arrows pierce through lines of
+    enemies with +50 % power.'

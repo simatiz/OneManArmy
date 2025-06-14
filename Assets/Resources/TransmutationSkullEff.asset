@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: TransmutationSkullEff
+  m_EditorClassIdentifier: Assembly-CSharp::TransmutationSkullEffect
+  type: 8
+  itemName: Trnasmutaion Skull
+  icon: {fileID: 21300000, guid: 610e4c6c4bcba4b058a2a94ba860ade6, type: 3}
+  description: 'Whispers forbidden secrets. Mostly about soup recipes and body-slamming
+    goblins.
+
+
+    Slave: Activates a powerful 3-hit combo attack with increased
+    critical chance.
+
+    Knight: Temporarily halves all damage taken.
+
+    Archer:
+    Fires a piercing arrow that damages all enemies in a line with enhanced power.'

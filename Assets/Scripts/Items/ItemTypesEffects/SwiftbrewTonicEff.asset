@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 514bdccc0ac5d4ec6b843d0e488bf39f, type: 3}
+  m_Name: SwiftbrewTonicEff
+  m_EditorClassIdentifier: 
+  type: 5
+  itemName: Swiftbrew Tonic
+  icon: {fileID: 21300000, guid: ad407d8a9531242acbc483d8a8b66dfa, type: 3}
+  description: 'Like coffee, minus the bathroom break.
+
+
+    Slave: Every 25 s you
+    burst into a 5-second speed sprint.
+
+    Knight: Permanent boost to move speed.
+
+    Archer:
+    Your arrows travel noticeably faster.'
